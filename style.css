@@ -1,0 +1,40 @@
+/* body {
+    transform: rotate(90deg);
+} */
+
+#controls {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+#array-size {
+    width: 100px;
+    margin-right: 10px;
+    height: 30px;
+    padding: 0px 20px;
+}
+
+#status {
+    position: fixed;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    padding: 5px 5px;
+    height: 50px;
+}
+
+.array-box {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: white;
+    margin: 0px 10px;
+    border-radius: 5px;
+}
